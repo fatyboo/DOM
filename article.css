@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 40px; /* Ajustez la taille du logo selon vos besoins */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.button {
+    cursor: pointer;
+    left: 60%;
+    text-decoration-line: calc(50%);
+}
+
+.like {
+    font-size: 20px;
+}
+
+.liked {
+    color: red;
+    background-color: #152665;
+}
+
+
